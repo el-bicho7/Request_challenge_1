@@ -1,38 +1,39 @@
+/* this sets all the page margin and paddin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* adds a background color to all the page*/
 body {
     background-color: #d9dcd6;
 }
-
+/* It gives format to the links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* The font size of the paragraphs is 16px. */
 p {
     font-size: 16px;
 }
-
+/* It gives the header class the format of the text, and background color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* The header h1 doesn't make a new line  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* This class gives the the span its gray color */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #c8cac5;
 }
-
+/* This class sets the color, font family and size, margin, padding and location of the div */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,11 +41,11 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* This class takes out any style of the div ul on the header */
 .header div ul {
     list-style-type: none;
 }
-
+/* This class doesn't make a new line for the unordered list */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -55,82 +56,17 @@ p {
     width: 100%;
     height: 100%;
 }
-
+/* Makes the image float tp  the left */
 .float-left {       
     float: left;
     margin-right: 25px;
 }
-
+/* Makes the image float tp  the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* This 3 classes will assign the size of each one of the boxes, as its size, font and background color. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -157,7 +93,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* This 3 classes assign the size of the images. */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -169,7 +105,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* this class makes the margin between boxes adn the font size. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -184,14 +120,80 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* This class makes it's content to fit on the 75% of the width of the screen */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* This class is making the right side of the page, making the text color, font, 
+the background color of the side and the size of it.  */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* This 3 class gives the color white and the space between them  */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* This 3 classes gives the h3 its margin between them and centered in the h3 */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* This 3 classes make the image a block, so they start a new line; and it assigns the size of the image */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* This class assigns the footer size, font and centers the text*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* This assigns the h4 size */
+.footer h4 {
     font-size: 20px;
 }
